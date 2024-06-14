@@ -1,1 +1,29 @@
-This is a Digital clock which changes it color in every 1 minute
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="DC.css">
+</head>
+
+<body onload="initClock()">
+    <div class="datetime">
+        <div class="date">
+            <span id="dayname">Day</span>
+            <span id="month">Month</span>
+            <span id="daynum">00</span>
+            <span id="year">year</span>
+        </div>
+        <div class="time">
+            <span id="hour">00</span>
+            <span id="minutes">00</span>
+            <span id="seconds">00</span>
+            <span id="period">AM</span>
+        </div>
+    </div>
+</body>
+<script src="DC.js"></script>
+
+</html>
